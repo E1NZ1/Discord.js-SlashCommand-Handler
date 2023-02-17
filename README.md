@@ -1,4 +1,4 @@
-# Discord.js-slashCommand-Handler
+# Discord.js v14 slashCommand Handler
 THE BEST DJS V14 COMMAND HANDLER. Credits: leaf
 ### I only uploaded this cmd handler to github.
 Otherwise the owner had uploaded it in his discord
@@ -23,4 +23,18 @@ module.exports = {
 ```
 
 ## Status
-### if you want to change your bot's status Go to structure/client.js
+### if you want to change your bot's status Go to structure/client.js and you will see this line
+```js
+presence: {
+                status: "online",
+                activities: [
+                    {
+                        name: "Version " + require("../package.json").version,
+                        type: ActivityType.Watching,
+                    },
+                ],
+            },
+```
+
+
+# ENJOY
