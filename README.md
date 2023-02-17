@@ -1,4 +1,4 @@
-# Discord.js-Command-Handler
+# Discord.js-slashCommand-Handler
 THE BEST DJS V14 COMMAND HANDLER. Credits: leaf
 ### I only uploaded this cmd handler to github.
 Otherwise the owner had uploaded it in his discord
@@ -10,9 +10,17 @@ Otherwise the owner had uploaded it in his discord
 ### 4. Pre-made Basic commands.(help, avatar, botinfo and ping).
 
 # Setup
+## Setting up Bot
 ### Go to config.js and write your details
 ```js
-{
+require("dotenv").config(); // remove this line if you are using replit
 
-}
+module.exports = {
+    token: process.env.TOKEN || "", // your bot token
+    mongourl: process.env.MONGO_URI || "", // mongoose connection string
+    clientID: process.env.CLIENT_ID || "", // your bot client id
+};
 ```
+
+## Status
+### if you want to change your bot's status Go to structure/client.js
