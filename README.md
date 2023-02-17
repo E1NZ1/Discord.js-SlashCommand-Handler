@@ -7,4 +7,12 @@ Otherwise the owner had uploaded it in his discord
 ### 1. Easy to use (Use it with the easiest way to create an SlashCommand)
 ### 2. Mongoose Support
 ### 3. Users without permission won't see command in the slash command list.
-### 3. Pre-made Basic commands.(help, avatar, botinfo and ping).
+### 4. Pre-made Basic commands.(help, avatar, botinfo and ping).
+
+# Setup
+### Go to config.js and write your details
+```js
+{
+
+}
+```
