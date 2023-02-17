@@ -12,11 +12,9 @@ class Bot extends Client {
         super({
             failIfNotExists: true,
             allowedMentions: {
-                everyone: false,
-                roles: false,
-                users: false,
-            },
-            intents: [gib.Guilds],
+                parse: ['users', 'everyone', 'roles'],
+                },
+            intents: 32767,
             presence: {
                 status: "online",
                 activities: [
