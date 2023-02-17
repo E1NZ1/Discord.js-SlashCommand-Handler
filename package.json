@@ -1,14 +1,14 @@
 {
-  "name": "v14",
+  "name": "discord.js v14",
   "version": "1.0.0",
-  "description": "discord.js v14 bot",
+  "description": "discord.js v14 slash Command Handler",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "leaf",
-  "license": "ISC",
+  "author": "EINZI#4616",
+  "license": "MIT",
   "dependencies": {
     "discord.js": "^14.1.2",
     "dotenv": "^16.0.1",
