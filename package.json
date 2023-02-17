@@ -6,8 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "EINZI#4616",
+  "keywords": [
+    "djs-v14", 
+    "discord-js-v14", 
+    "discordjs",
+    "discord-js",
+    "discord-js-slash-command-handler"
+  ],
+  "author": "E1NZ1#4616",
   "license": "MIT",
   "dependencies": {
     "discord.js": "^14.1.2",
