@@ -1,5 +1,7 @@
 # Discord.js v14 slashCommand Handler
-THE BEST DJS V14 COMMAND HANDLER. Credits: leaf
+THE BEST DJS V14 COMMAND HANDLER.
+Credits: leaf
+Discord: https://discord.gg/6cgRbJzX8Y
 ### I only uploaded this cmd handler to github.
 Otherwise the owner had uploaded it in his discord
 
