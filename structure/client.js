@@ -13,7 +13,8 @@ class Bot extends Client {
             failIfNotExists: true,
             allowedMentions: {
                 parse: ['users', 'everyone', 'roles'],
-                },
+                repliedUser: false,
+            },
             intents: 32767,
             presence: {
                 status: "online",
